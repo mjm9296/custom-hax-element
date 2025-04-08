@@ -1,0 +1,22 @@
+{
+    "name": "ddd-steps-list",
+    "version": "0.0.1",
+    "description": "A step-by-step list component for PSU design system",
+    "main": "index.js",
+    "scripts": {
+      "start": "web-dev-server --app-index index.html --node-resolve --open",
+      "build": "rollup -c"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "lit": "^2.7.0",
+      "@lrnwebcomponents/d-d-d": "^4.0.0"
+    },
+    "devDependencies": {
+      "@web/dev-server": "^0.3.0",
+      "@rollup/plugin-node-resolve": "^15.0.0",
+      "rollup": "^2.79.0",
+      "rollup-plugin-terser": "^7.0.2"
+    }
+  }
